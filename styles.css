@@ -38,10 +38,14 @@ li a {
   padding: 16px;
   text-decoration: none;
 }
-
-section{
-  display:inline-block;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
 }
+
+
 .covid_update {
   /*display: inline-block;*/
   blackground-color: aquamarine;
