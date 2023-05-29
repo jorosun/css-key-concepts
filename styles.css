@@ -38,8 +38,12 @@ li a {
   padding: 16px;
   text-decoration: none;
 }
+
+section{
+  display:inline-block;
+}
 .covid_update {
-  display: inline-block;
+  /*display: inline-block;*/
   blackground-color: aquamarine;
   width: 30%;
   padding: 5px;
@@ -47,7 +51,7 @@ li a {
 }
 
 .welcome{
-  display: inline-block;
+  /*display: inline-block;*/
   width: 30%;
   padding: 5px;
   test-align: center;
@@ -55,7 +59,7 @@ li a {
 }
 
 .how_to_video{
-  display: inline-block;
+  /* display: inline-block; */
   width: 30%;
   padding: 5px;
   test-align: center;
