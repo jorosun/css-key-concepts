@@ -7,12 +7,17 @@ body {
 
 header {
   padding: 40px;
-  /*text-align: center;*/
+  text-align: center;
   background: #f9f7f7;
   margin: 30px;
   font-size: 20px;
 }
 
+h1 {
+  color:blue
+  text-align: center;
+  font-size: 40px; 
+}
 nav {
   color: aquamarine;
 }
@@ -26,12 +31,34 @@ ul {
 li {
   float: left;
 }
-/*
+
 li a {
   display: block;
-  color: white;
+  color:blue
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
-*/
+.covid_update {
+  display: inline-block;
+  blackground-color: aquamarine;
+  width: 30%;
+  padding: 5px;
+  text-align: left;
+}
+
+.welcome{
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+  test-align: center;
+  background-color:antiquewhite;
+}
+
+.how_to_video{
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+  test-align: center;
+  background-color:bisque;
+}
