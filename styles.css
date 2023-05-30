@@ -10,17 +10,42 @@ header {
   text-align: center;
   background-color: #b0cfe0;
   font-size: 1.5em;
+  color: #152058;
 }
 
 h1 {
-  color: #1635b06a;
+  color: #152058;
   background-color: #b0cfe0;
   text-align: center;
   font-size: 2em;
 }
-nav {
+
+h2 {
+  color: #152058;
+  background-color: #b0cfe0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #152058;
+  background-color: #b0cfe0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h3 #alert {
+  color: red;
+}
+
+p {
+  color: #3985b1;
+}
+/*nav {
   color: #7fc1ff;
 }
+*/
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -34,16 +59,21 @@ li {
 
 li a {
   display: block;
-  color: #445299;
+  color: #152058;
   text-align: center;
   padding: 16px;
+  font-size: 1.5em;
   text-decoration: none;
+}
+
+input #site-search {
+  color: #445299;
 }
 
 .flex-container {
   display: flex;
   width: 100%;
-  background-color: #8db9e5;
+  background-color: #b0cfe0;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
@@ -53,9 +83,11 @@ li a {
 .covid_update {
   /*display: inline-block;*/
   background-color: #b0cfe0;
+  color: #445299;
   width: 30%;
   padding: 5px;
   text-align: left;
+  font-size: 1em;
 }
 
 .welcome {
