@@ -1,31 +1,32 @@
 body {
-  background-image: surgery.png;
+  /*background-image: surgery.png; 
+   background-color: antiquewhite;*/
   margin: 1 em;
-  font:san-serif;
+  font: san-serif;
 }
 
 header {
   padding: 40px;
   text-align: center;
-  background: white;
-  font-size: 1.5 em;
+  background-color: #b0cfe0;
+  font-size: 1.5em;
 }
 
 h1 {
-  color:white;
-  background-color: rgb(0, 85, 255);
+  color: #1635b06a;
+  background-color: #b0cfe0;
   text-align: center;
-  font-size: 2em; 
+  font-size: 2em;
 }
 nav {
-  color: aquamarine;
+  color: #7fc1ff;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f9f7f7;
+  background-color: #b0cfe0;
 }
 li {
   float: left;
@@ -33,110 +34,121 @@ li {
 
 li a {
   display: block;
-  color:blue
+  color: #445299;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
+
 .flex-container {
   display: flex;
+  width: 100%;
+  background-color: #8db9e5;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
+  color: #445299;
 }
-
 
 .covid_update {
   /*display: inline-block;*/
-  blackground-color: aquamarine;
+  background-color: #b0cfe0;
   width: 30%;
   padding: 5px;
   text-align: left;
 }
 
-.welcome{
+.welcome {
   /*display: inline-block;*/
   width: 30%;
   padding: 5px;
-  test-align: center;
-  background-color:antiquewhite;
+  text-align: center;
+  color: #08092559;
+  background-color: #b0cfe0;
 }
 
-.how_to_video{
+.how_to_video {
   /* display: inline-block; */
   width: 30%;
   padding: 5px;
-  test-align: center;
-  background-color:bisque;
+  text-align: center;
+  background-color: #b0cfe0;
+}
+.feedback-form {
+  /*display: inline-block;*/
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: #b0cfe0;
 }
 
-.form-style-1{
-	max-width: 450px;
-	background: #FAFAFA;
-	padding: 30px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
+.form-style-1 {
+  max-width: 60%;
+  background: #fafafa;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 25px #00000059;
+  border-radius: 10px;
+  border: 6px solid #305a72;
 }
-.form-style-1 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
+.form-style-1 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-.form-style-1 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
+.form-style-1 ul li {
+  display: block;
+  margin-bottom: 10px;
+  min-height: 35px;
 }
-.form-style-1 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
 
-}.form-style-1 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
+.form-style-1 ul li .field-style {
+  box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b0cfe0;
 }
-.form-style-1 ul li .field-split{
-	width: 49%;
+
+.form-style-1 ul li .field-style:focus {
+  box-shadow: 0 0 5px #b0cfe0;
+  border: 1px solid #b0cfe0;
 }
-.form-style-1 ul li .field-full{
-	width: 100%;
+
+.form-style-1 ul li .field-split {
+  width: 49%;
 }
-.form-style-1 ul li input.align-left{
-	float:left;
+
+.form-style-1 ul li .field-full {
+  width: 100%;
 }
-.form-style-1 ul li input.align-right{
-	float:right;
+
+.form-style-1 ul li input.align-left {
+  float: left;
 }
-.form-style-1 ul li textarea{
-	width: 100%;
-	height: 100px;
+
+.form-style-1 ul li input.align-right {
+  float: right;
 }
-.form-style-1 ul li input[type="button"], 
+
+.form-style-1 ul li textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form-style-1 ul li input[type="button"],
 .form-style-1 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
-	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
+  box-shadow: inset 0px 1px 0px 0px #3985b1;
+  background-color: #216288;
+  border: 1px solid #17445e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial, Helvetica, sans-serif;
 }
-.form-style-1 ul li input[type="button"]:hover, 
+.form-style-1 ul li input[type="button"]:hover,
 .form-style-1 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+  background: linear-gradient(to bottom, #2d77a2 5%, #337da8 100%);
+  background-color: #28739e;
 }
