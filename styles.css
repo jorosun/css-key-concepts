@@ -41,10 +41,15 @@ h3 #alert {
 p {
   color: #3985b1;
 }
-/*nav {
-  color: #7fc1ff;
+
+address {
+  color: #17445e;
 }
-*/
+
+.welcome img {
+  height: 300px;
+  border-radius: 8px;
+}
 
 ul {
   list-style-type: none;
